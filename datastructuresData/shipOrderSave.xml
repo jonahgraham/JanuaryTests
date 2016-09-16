@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ASCII"?>
+<shiporder orderid="">
+  <orderperson>McCaskey</orderperson>
+  <shipto>
+    <name>name</name>
+    <address>1600 Pennsylvania Ave</address>
+    <city>city</city>
+    <country>country</country>
+  </shipto>
+  <item>
+    <title>POTUS</title>
+    <note>NOTES</note>
+    <quantity>1</quantity>
+    <price>0.0</price>
+  </item>
+  <item>
+    <title>FLOTUS</title>
+    <note>NOTES</note>
+    <quantity>1</quantity>
+    <price>0.0</price>
+  </item>
+</shiporder>

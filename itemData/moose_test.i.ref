@@ -1,0 +1,50 @@
+[Functions]
+  [./power_history]
+  # axis = 
+  # control_tags = 
+    data_file = defaultMatDB.csv
+  # enable = true
+  # format = rows
+    scale_factor = 1
+    type = PiecewiseLinear
+  # x = 
+  # x_index_in_file = 0
+  # xy_data = 
+  # xy_in_file_only = true
+  # y = 
+  # y_index_in_file = 1
+  [../]
+[]
+[Adaptivity]
+# cycles_per_step = 1
+# initial_marker = 
+  initial_steps = 0
+  marker = 
+# max_h_level = 0
+# start_time = -1.79769e+308
+  steps = 0
+# stop_time = 1.79769e+308
+  [./Indicators]
+    [./AnalyticalIndicator]
+    # block = ANY_BLOCK_ID
+    # control_tags = 
+    # enable = true
+      function = 
+    # implicit = true
+    # outputs = 
+      type = AnalyticalIndicator
+    # use_displaced_mesh = true
+      variable = 
+    [../]
+    [./GradientJumpIndicator]
+    # block = 
+    # control_tags = 
+    # enable = true
+    # outputs = 
+    # scale_by_flux_faces = true
+      type = GradientJumpIndicator
+    # use_displaced_mesh = true
+      variable = 
+    [../]
+  [../]
+[]
